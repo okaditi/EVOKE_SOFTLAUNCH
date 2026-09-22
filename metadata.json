@@ -1,0 +1,6 @@
+{
+  "name": "EVOKE — Interactive Soft-Launch Experience",
+  "description": "An immersive interactive 3D esports environment and cinematic soft-launch experience for EVOKE. Explore the gaming room, drag the chair and controller, toggle the monitor, and discover the creed: Play. Prove. Progress.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

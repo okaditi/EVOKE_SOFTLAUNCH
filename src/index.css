@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@theme {
+  --color-plum: #3A102C;
+  --color-mauve: #A62B5F;
+  --color-ivory: #F4F0EA;
+  --color-charcoal: #171519;
+  --color-burnt: #E66A3A;
+
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+}
+
+/* Subtle atmospheric grain overlay */
+.bg-grain {
+  background-image: radial-gradient(rgba(244, 240, 234, 0.04) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
+/* Refined custom scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #171519;
+}
+::-webkit-scrollbar-thumb {
+  background: #3A102C;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A62B5F;
+}
+
+/* Geometry clip paths */
+.clip-slant {
+  clip-path: polygon(15% 0, 100% 0, 85% 100%, 0% 100%);
+}
+
+.clip-monogram {
+  clip-path: polygon(0 0, 100% 0, 100% 70%, 70% 100%, 0 100%);
+}
+
+/* Glowing effects in brand palette */
+.glow-mauve {
+  box-shadow: 0 0 60px -10px rgba(166, 43, 95, 0.35);
+}
+
+.text-glow {
+  text-shadow: 0 0 40px rgba(244, 240, 234, 0.3);
+}
+
+.text-glow-mauve {
+  text-shadow: 0 0 35px rgba(166, 43, 95, 0.5);
+}
+
+/* Hardware accelerated layer */
+.will-change-transform {
+  will-change: transform, opacity, filter;
+}
